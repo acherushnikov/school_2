@@ -8,20 +8,25 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
+
+
 @property (nonatomic, strong) NSArray *troubleList;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
 	[super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
-    self.troubleList = @[@"trouble 1, " @"trouble2", @"trouble3"];
+	self.view.backgroundColor = [UIColor greenColor];
+	self.troubleList = @[@"trouble1", @"trouble2", @"trouble3"];
 }
 
-- (IBAction)carambaAction:(id)sender {
-    
+- (IBAction)boom:(id)sender
+{
+	NSLog(@"BOOM !");
 }
 
 @end
