@@ -11,7 +11,11 @@
 
 @interface ViewController ()
 
+<<<<<<< HEAD
 @property (nonatomic, strong) NSArray *troubleList;
+=======
+@property(nonatomic, strong) NSArray *troubleList;
+>>>>>>> 19082ac... добавила изменения во ViewController
 
 @end
 
@@ -20,6 +24,7 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
+<<<<<<< HEAD
 	self.view.backgroundColor = [UIColor greenColor];
 	self.troubleList = @[@"trouble1", @"trouble2", @"trouble3"];
 }
@@ -29,4 +34,18 @@
 	NSLog(@"BOOM !");
 }
 
+=======
+    self.view.backgroundColor = [UIColor greenColor];
+    self.troubleList = @[@"trouble1", @"trouble2", @"trouble3"];
+	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)blahblah:(id)sender
+{
+    NSLog(@"Hello!");
+}
+
+
+
+>>>>>>> 19082ac... добавила изменения во ViewController
 @end
