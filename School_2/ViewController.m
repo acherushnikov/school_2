@@ -10,19 +10,27 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) NSArray *troublelist;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.troublelist = @[@"trouble1", @"trouble2", @"trouble3"];
 }
 
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.
+}
+
+- (IBAction) boom :(id)sender{
+    NSLog(@"HEllo");
 }
 
 
