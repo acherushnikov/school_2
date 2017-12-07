@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
 =======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
 >>>>>>> 19082ac... добавила изменения во ViewController
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+>>>>>>> e3d2250a6e4190452374eba2da3a7f3b8f896200
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
 =======
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
 >>>>>>> 19082ac... добавила изменения во ViewController
+=======
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+>>>>>>> e3d2250a6e4190452374eba2da3a7f3b8f896200
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,6 +35,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
 <<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgW-Ay-kt2">
                                 <rect key="frame" x="23" y="57" width="323" height="30"/>
@@ -40,21 +50,39 @@
                                 <connections>
                                     <action selector="blahblah:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJR-Pm-cmt"/>
 >>>>>>> 19082ac... добавила изменения во ViewController
+=======
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfl-Zx-ofU">
+                                <rect key="frame" x="23" y="54" width="329" height="104"/>
+                                <state key="normal" title="Trouble Action Button"/>
+                                <connections>
+                                    <action selector="caramba:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ac2-FJ-uNj"/>
+>>>>>>> e3d2250a6e4190452374eba2da3a7f3b8f896200
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+<<<<<<< HEAD
                             <constraint firstItem="GgW-Ay-kt2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="7Nn-W8-bId"/>
                             <constraint firstItem="GgW-Ay-kt2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="mTA-Yi-miK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GgW-Ay-kt2" secondAttribute="trailing" constant="29" id="nHr-Ou-8ft"/>
+=======
+                            <constraint firstItem="wfl-Zx-ofU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="NVV-3Z-Kb0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wfl-Zx-ofU" secondAttribute="bottom" constant="509" id="OCQ-mm-88H"/>
+                            <constraint firstItem="wfl-Zx-ofU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="UwG-ZT-PLd"/>
+                            <constraint firstItem="wfl-Zx-ofU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lze-AZ-fca"/>
+>>>>>>> e3d2250a6e4190452374eba2da3a7f3b8f896200
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+=======
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+>>>>>>> e3d2250a6e4190452374eba2da3a7f3b8f896200
         </scene>
     </scenes>
 </document>
