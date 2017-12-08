@@ -11,4 +11,7 @@
 
 @interface SBTService : NSObject <SBTServiceProtocol>
 
+@property (nonatomic, assign) BOOL isGenerateData;
+- (void)generateData;
+
 @end

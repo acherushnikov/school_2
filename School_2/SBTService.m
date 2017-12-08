@@ -38,4 +38,12 @@
 	return [provider getPersonListFromJSON:data];
 }
 
+- (void)generateData
+{
+	if (self.isGenerateData)
+	{
+		[self fakeData];
+	}
+}
+
 @end
