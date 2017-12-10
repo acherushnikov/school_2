@@ -1,4 +1,3 @@
-//
 //  SBTSBTPersonProvider.m
 //  UnitTests
 //
@@ -9,26 +8,30 @@
 #import "SBTPersonProvider.h"
 #import "SBTPerson.h"
 
+@interface SBTPersonProvider ()
+
+@property (nonatomic, strong) SBTPerson *person;
+
+@end
+
 @implementation SBTPersonProvider
 
 - (NSArray *)getPersonListFromJSON:(NSArray *)jsonData
 {
-	if (!jsonData)
-	{
-		return nil;
-	}
-	
-	NSMutableArray *personList = [NSMutableArray arrayWithCapacity:jsonData.count];
-	for (NSDictionary *personDictionary in jsonData)
-	{
-		SBTPerson *person = [SBTPerson new];
-		person.firstName = personDictionary[@"firstName"];
-		person.lastName = personDictionary[@"lastName"];
-		person.secondName = personDictionary[@"secondName"];
-		[personList addObject:person];
-	}
-	return [personList copy];
+    if (!jsonData)
+    {
+        return nil;
+    }
+    NSMutableArray *personList = [NSMutableArray arrayWithCapacity:jsonData.count];
+    for (NSDictionary *personDictionary in jsonData)
+    {
+        SBTPerson *person = [SBTPerson new];
+        person.firstName = personDictionary[@"firstName"];
+        person.lastName = personDictionary[@"lastName"];
+        person.secondName = personDictionary[@"secondName"];
+        [personList addObject:person];
+    }
+    return [personList copy];
 }
-
 
 @end
