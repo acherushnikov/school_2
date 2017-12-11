@@ -8,25 +8,22 @@
 
 #import "ViewController.h"
 
-
 @interface ViewController ()
-
-@property (nonatomic, strong) NSArray *troubleList;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
 	[super viewDidLoad];
-	self.view.backgroundColor = [UIColor greenColor];
-	self.troubleList = @[@"trouble1", @"trouble2", @"trouble3"];
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (IBAction)boom:(id)sender
-{
-	NSLog(@"BOOM !");
+
+- (void)didReceiveMemoryWarning {
+	[super didReceiveMemoryWarning];
+	// Dispose of any resources that can be recreated.
 }
+
 
 @end

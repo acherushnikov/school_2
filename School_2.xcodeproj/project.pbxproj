@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510F8BFB1FDEC0A00018D745 /* SBTPersonProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 510F8BFA1FDEC0A00018D745 /* SBTPersonProviderTests.m */; };
 		ADAAA0711FD84C2600073FF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0701FD84C2600073FF2 /* AppDelegate.m */; };
 		ADAAA0741FD84C2600073FF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0731FD84C2600073FF2 /* ViewController.m */; };
 		ADAAA0771FD84C2600073FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAAA0751FD84C2600073FF2 /* Main.storyboard */; };
 		ADAAA0791FD84C2600073FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAAA0781FD84C2600073FF2 /* Assets.xcassets */; };
 		ADAAA07C1FD84C2600073FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAAA07A1FD84C2600073FF2 /* LaunchScreen.storyboard */; };
 		ADAAA07F1FD84C2600073FF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA07E1FD84C2600073FF2 /* main.m */; };
-		ADAAA0891FD84C2600073FF2 /* School_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0881FD84C2600073FF2 /* School_2Tests.m */; };
+		ADAAA09B1FDAE8CD00073FF2 /* SBTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0941FDAE8CC00073FF2 /* SBTPerson.m */; };
+		ADAAA09C1FDAE8CD00073FF2 /* SBTPersonProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0991FDAE8CD00073FF2 /* SBTPersonProvider.m */; };
+		ADAAA09D1FDAE8CD00073FF2 /* SBTService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA09A1FDAE8CD00073FF2 /* SBTService.m */; };
+		ADAAA0A41FDAF44700073FF2 /* SBTServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0A31FDAF44700073FF2 /* SBTServiceTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		510F8BFA1FDEC0A00018D745 /* SBTPersonProviderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTPersonProviderTests.m; sourceTree = "<group>"; };
 		ADAAA06C1FD84C2600073FF2 /* School_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAAA06F1FD84C2600073FF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADAAA0701FD84C2600073FF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,8 +43,16 @@
 		ADAAA07D1FD84C2600073FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADAAA07E1FD84C2600073FF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADAAA0841FD84C2600073FF2 /* School_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = School_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADAAA0881FD84C2600073FF2 /* School_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = School_2Tests.m; sourceTree = "<group>"; };
 		ADAAA08A1FD84C2600073FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAAA0931FDAE8CC00073FF2 /* SBTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTService.h; sourceTree = "<group>"; };
+		ADAAA0941FDAE8CC00073FF2 /* SBTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTPerson.m; sourceTree = "<group>"; };
+		ADAAA0951FDAE8CC00073FF2 /* SBTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTPerson.h; sourceTree = "<group>"; };
+		ADAAA0961FDAE8CC00073FF2 /* SBTPersonProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTPersonProvider.h; sourceTree = "<group>"; };
+		ADAAA0971FDAE8CC00073FF2 /* SBTServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTServiceProtocol.h; sourceTree = "<group>"; };
+		ADAAA0981FDAE8CD00073FF2 /* SBTPersonProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTPersonProviderProtocol.h; sourceTree = "<group>"; };
+		ADAAA0991FDAE8CD00073FF2 /* SBTPersonProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTPersonProvider.m; sourceTree = "<group>"; };
+		ADAAA09A1FDAE8CD00073FF2 /* SBTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTService.m; sourceTree = "<group>"; };
+		ADAAA0A31FDAF44700073FF2 /* SBTServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTServiceTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +79,7 @@
 				ADAAA06E1FD84C2600073FF2 /* School_2 */,
 				ADAAA0871FD84C2600073FF2 /* School_2Tests */,
 				ADAAA06D1FD84C2600073FF2 /* Products */,
+				ADAAA09E1FDAE8EA00073FF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +99,14 @@
 				ADAAA0701FD84C2600073FF2 /* AppDelegate.m */,
 				ADAAA0721FD84C2600073FF2 /* ViewController.h */,
 				ADAAA0731FD84C2600073FF2 /* ViewController.m */,
+				ADAAA0951FDAE8CC00073FF2 /* SBTPerson.h */,
+				ADAAA0941FDAE8CC00073FF2 /* SBTPerson.m */,
+				ADAAA0961FDAE8CC00073FF2 /* SBTPersonProvider.h */,
+				ADAAA0991FDAE8CD00073FF2 /* SBTPersonProvider.m */,
+				ADAAA0981FDAE8CD00073FF2 /* SBTPersonProviderProtocol.h */,
+				ADAAA0931FDAE8CC00073FF2 /* SBTService.h */,
+				ADAAA09A1FDAE8CD00073FF2 /* SBTService.m */,
+				ADAAA0971FDAE8CC00073FF2 /* SBTServiceProtocol.h */,
 				ADAAA0751FD84C2600073FF2 /* Main.storyboard */,
 				ADAAA0781FD84C2600073FF2 /* Assets.xcassets */,
 				ADAAA07A1FD84C2600073FF2 /* LaunchScreen.storyboard */,
@@ -97,10 +119,18 @@
 		ADAAA0871FD84C2600073FF2 /* School_2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				ADAAA0881FD84C2600073FF2 /* School_2Tests.m */,
 				ADAAA08A1FD84C2600073FF2 /* Info.plist */,
+				510F8BFA1FDEC0A00018D745 /* SBTPersonProviderTests.m */,
+				ADAAA0A31FDAF44700073FF2 /* SBTServiceTests.m */,
 			);
 			path = School_2Tests;
+			sourceTree = "<group>";
+		};
+		ADAAA09E1FDAE8EA00073FF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +237,10 @@
 			files = (
 				ADAAA0741FD84C2600073FF2 /* ViewController.m in Sources */,
 				ADAAA07F1FD84C2600073FF2 /* main.m in Sources */,
+				ADAAA09C1FDAE8CD00073FF2 /* SBTPersonProvider.m in Sources */,
+				ADAAA09B1FDAE8CD00073FF2 /* SBTPerson.m in Sources */,
 				ADAAA0711FD84C2600073FF2 /* AppDelegate.m in Sources */,
+				ADAAA09D1FDAE8CD00073FF2 /* SBTService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAAA0891FD84C2600073FF2 /* School_2Tests.m in Sources */,
+				ADAAA0A41FDAF44700073FF2 /* SBTServiceTests.m in Sources */,
+				510F8BFB1FDEC0A00018D745 /* SBTPersonProviderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -360,6 +394,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = School_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sbertech.School-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +410,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = School_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sbertech.School-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,8 +424,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = School_2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sbertech.School-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,8 +442,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = School_2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sbertech.School-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
