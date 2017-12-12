@@ -29,6 +29,4 @@
 	}
 	return [personList copy];
 }
-
-
 @end
